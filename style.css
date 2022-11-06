@@ -1,0 +1,35 @@
+.dates__items {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.dates__item {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    padding: 20px 30px;
+    background-color: var(--primary-white);
+    border-radius: 10px;
+}
+
+.dates__text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: var(--green);
+    font-weight: 600;
+}
+
+.dates__info {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    color: var(--orange);
+    font-weight: 700;
+}
+
+.dates__button {
+    margin-top: 30px;
+    display: flex;
+}
+

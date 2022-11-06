@@ -1,0 +1,32 @@
+.full__editions {
+    padding: 30px 0;
+    background-color: var(--green--light);
+}
+
+.editions__items {
+    display: grid;
+    align-items: center;
+}
+
+.editions__item {
+    margin: auto;
+}
+
+.editions__image {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 879px) {
+    .editions__items {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 10px;
+    }   
+}
+@media (min-width: 880px) {
+    .editions__items {
+        grid-template-columns: repeat(4, auto);
+        row-gap: 30px;
+    }
+}
